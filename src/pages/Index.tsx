@@ -22,50 +22,50 @@ const Index = () => {
 
   const products = {
     disposables: [
-      { id: 1, name: 'Elf Bar BC5000', price: '990 ₽', flavor: 'Арбуз', puffs: '5000', image: 'https://images.unsplash.com/photo-1601024445121-e5b82f020549?w=400' },
-      { id: 2, name: 'Lost Mary BM600', price: '790 ₽', flavor: 'Черника', puffs: '600', image: 'https://images.unsplash.com/photo-1587301626882-f149d2d6d0b4?w=400' },
-      { id: 3, name: 'HQD Cuvie Plus', price: '890 ₽', flavor: 'Манго-лёд', puffs: '1200', image: 'https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=400' },
-      { id: 4, name: 'Vaporlax Sirius', price: '1090 ₽', flavor: 'Клубника', puffs: '2200', image: 'https://images.unsplash.com/photo-1613294762554-4f1cf98c0285?w=400' },
-      { id: 5, name: 'Puff Bar Plus', price: '690 ₽', flavor: 'Мята', puffs: '800', image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=400' },
-      { id: 6, name: 'GeekVape Wenax K1', price: '1290 ₽', flavor: 'Персик', puffs: '600', image: 'https://images.unsplash.com/photo-1607434472257-d9f8e57a643d?w=400' },
+      { id: 1, name: 'Elf Bar BC5000', price: '990 ₽', flavor: 'Арбуз', puffs: '5000', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/9e0c7025-da3f-4d44-bfe1-8335508a67c5.jpg' },
+      { id: 2, name: 'Lost Mary BM600', price: '790 ₽', flavor: 'Черника', puffs: '600', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/66140e1c-2a17-4664-b9df-0a7cf5713abd.jpg' },
+      { id: 3, name: 'HQD Cuvie Plus', price: '890 ₽', flavor: 'Манго-лёд', puffs: '1200', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/878b9353-f824-4c8c-b76c-c2e6b9c9618a.jpg' },
+      { id: 4, name: 'Vaporlax Sirius', price: '1090 ₽', flavor: 'Клубника', puffs: '2200', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/9e0c7025-da3f-4d44-bfe1-8335508a67c5.jpg' },
+      { id: 5, name: 'Puff Bar Plus', price: '690 ₽', flavor: 'Мята', puffs: '800', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/66140e1c-2a17-4664-b9df-0a7cf5713abd.jpg' },
+      { id: 6, name: 'GeekVape Wenax K1', price: '1290 ₽', flavor: 'Персик', puffs: '600', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/878b9353-f824-4c8c-b76c-c2e6b9c9618a.jpg' },
     ],
     liquids: [
-      { id: 1, name: 'URBN Premium', price: '490 ₽', volume: '60мл', nicotine: '3мг', image: 'https://images.unsplash.com/photo-1610633389918-1429f5a24c9e?w=400' },
-      { id: 2, name: 'Jam Monster', price: '690 ₽', volume: '100мл', nicotine: '6мг', image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=400' },
-      { id: 3, name: 'Naked 100', price: '590 ₽', volume: '60мл', nicotine: '0мг', image: 'https://images.unsplash.com/photo-1615207956171-f33c937c6e98?w=400' },
-      { id: 4, name: 'Candy King', price: '550 ₽', volume: '100мл', nicotine: '3мг', image: 'https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=400' },
-      { id: 5, name: 'Vapetasia', price: '650 ₽', volume: '60мл', nicotine: '6мг', image: 'https://images.unsplash.com/photo-1585559604959-6388fe69c92a?w=400' },
-      { id: 6, name: 'Dinner Lady', price: '790 ₽', volume: '60мл', nicotine: '3мг', image: 'https://images.unsplash.com/photo-1594882645126-14020914d58d?w=400' },
+      { id: 1, name: 'URBN Premium', price: '490 ₽', volume: '60мл', nicotine: '3мг', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/7511ed57-2dbd-4d17-9c94-cddc73e5f84a.jpg' },
+      { id: 2, name: 'Jam Monster', price: '690 ₽', volume: '100мл', nicotine: '6мг', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/7511ed57-2dbd-4d17-9c94-cddc73e5f84a.jpg' },
+      { id: 3, name: 'Naked 100', price: '590 ₽', volume: '60мл', nicotine: '0мг', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/7511ed57-2dbd-4d17-9c94-cddc73e5f84a.jpg' },
+      { id: 4, name: 'Candy King', price: '550 ₽', volume: '100мл', nicotine: '3мг', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/7511ed57-2dbd-4d17-9c94-cddc73e5f84a.jpg' },
+      { id: 5, name: 'Vapetasia', price: '650 ₽', volume: '60мл', nicotine: '6мг', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/7511ed57-2dbd-4d17-9c94-cddc73e5f84a.jpg' },
+      { id: 6, name: 'Dinner Lady', price: '790 ₽', volume: '60мл', nicotine: '3мг', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/7511ed57-2dbd-4d17-9c94-cddc73e5f84a.jpg' },
     ],
     cigarettes: [
-      { id: 1, name: 'Marlboro Red', price: '250 ₽', type: 'Красные', strength: 'Крепкие', image: 'https://images.unsplash.com/photo-1605901309584-818e25960a8f?w=400' },
-      { id: 2, name: 'Parliament Aqua Blue', price: '280 ₽', type: 'Синие', strength: 'Легкие', image: 'https://images.unsplash.com/photo-1591266371146-a4274d293cd1?w=400' },
-      { id: 3, name: 'Winston Blue', price: '220 ₽', type: 'Синие', strength: 'Легкие', image: 'https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?w=400' },
-      { id: 4, name: 'Camel Blue', price: '240 ₽', type: 'Синие', strength: 'Средние', image: 'https://images.unsplash.com/photo-1594149929227-c0bb3a59f0c1?w=400' },
-      { id: 5, name: 'Kent HD', price: '260 ₽', type: 'Белые', strength: 'Легкие', image: 'https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7c?w=400' },
-      { id: 6, name: 'LD Red', price: '180 ₽', type: 'Красные', strength: 'Крепкие', image: 'https://images.unsplash.com/photo-1594149929232-b5d8c23a4a59?w=400' },
+      { id: 1, name: 'Marlboro Red', price: '250 ₽', type: 'Красные', strength: 'Крепкие', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/94152ad1-7546-4c74-903f-dca3b4eaa28c.jpg' },
+      { id: 2, name: 'Parliament Aqua Blue', price: '280 ₽', type: 'Синие', strength: 'Легкие', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/94152ad1-7546-4c74-903f-dca3b4eaa28c.jpg' },
+      { id: 3, name: 'Winston Blue', price: '220 ₽', type: 'Синие', strength: 'Легкие', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/94152ad1-7546-4c74-903f-dca3b4eaa28c.jpg' },
+      { id: 4, name: 'Camel Blue', price: '240 ₽', type: 'Синие', strength: 'Средние', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/94152ad1-7546-4c74-903f-dca3b4eaa28c.jpg' },
+      { id: 5, name: 'Kent HD', price: '260 ₽', type: 'Белые', strength: 'Легкие', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/94152ad1-7546-4c74-903f-dca3b4eaa28c.jpg' },
+      { id: 6, name: 'LD Red', price: '180 ₽', type: 'Красные', strength: 'Крепкие', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/94152ad1-7546-4c74-903f-dca3b4eaa28c.jpg' },
     ],
     vapes: [
-      { id: 1, name: 'VAPE PRO X', price: '3 990 ₽', flavor: 'Ледяная мята', puffs: '5000', image: 'https://images.unsplash.com/photo-1512428813834-c702c7702b78?w=400' },
-      { id: 2, name: 'VAPE ULTRA', price: '4 590 ₽', flavor: 'Манго-маракуя', puffs: '7000', image: 'https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=400' },
-      { id: 3, name: 'VAPE MINI', price: '2 490 ₽', flavor: 'Вишня', puffs: '3000', image: 'https://images.unsplash.com/photo-1598201483593-b5f6e09b9f97?w=400' },
-      { id: 4, name: 'VAPE MAX', price: '5 990 ₽', flavor: 'Ягодный микс', puffs: '10000', image: 'https://images.unsplash.com/photo-1577003833154-a7cf3c196c6a?w=400' },
-      { id: 5, name: 'VAPE MINI PRO', price: '3 290 ₽', flavor: 'Дыня', puffs: '4000', image: 'https://images.unsplash.com/photo-1605733513597-f0b8f5c1f7b1?w=400' },
-      { id: 6, name: 'VAPE PLUS', price: '4 190 ₽', flavor: 'Кола', puffs: '6000', image: 'https://images.unsplash.com/photo-1610828895346-b23d5f8cd9a4?w=400' },
+      { id: 1, name: 'VAPE PRO X', price: '3 990 ₽', flavor: 'Ледяная мята', puffs: '5000', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/10ed0287-e14d-483d-b16f-b3c6fc98a672.jpg' },
+      { id: 2, name: 'VAPE ULTRA', price: '4 590 ₽', flavor: 'Манго-маракуя', puffs: '7000', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/10ed0287-e14d-483d-b16f-b3c6fc98a672.jpg' },
+      { id: 3, name: 'VAPE MINI', price: '2 490 ₽', flavor: 'Вишня', puffs: '3000', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/10ed0287-e14d-483d-b16f-b3c6fc98a672.jpg' },
+      { id: 4, name: 'VAPE MAX', price: '5 990 ₽', flavor: 'Ягодный микс', puffs: '10000', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/10ed0287-e14d-483d-b16f-b3c6fc98a672.jpg' },
+      { id: 5, name: 'VAPE MINI PRO', price: '3 290 ₽', flavor: 'Дыня', puffs: '4000', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/10ed0287-e14d-483d-b16f-b3c6fc98a672.jpg' },
+      { id: 6, name: 'VAPE PLUS', price: '4 190 ₽', flavor: 'Кола', puffs: '6000', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/10ed0287-e14d-483d-b16f-b3c6fc98a672.jpg' },
     ],
     hookahs: [
-      { id: 1, name: 'HOOKAH PREMIUM', price: '12 990 ₽', height: '70см', type: 'Стеклянный', image: 'https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?w=400' },
-      { id: 2, name: 'HOOKAH CLASSIC', price: '8 490 ₽', height: '60см', type: 'Металл', image: 'https://images.unsplash.com/photo-1594149929227-c0bb3a59f0c1?w=400' },
-      { id: 3, name: 'HOOKAH MINI', price: '5 990 ₽', height: '40см', type: 'Портативный', image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=400' },
-      { id: 4, name: 'HOOKAH ELITE', price: '15 990 ₽', height: '75см', type: 'Premium', image: 'https://images.unsplash.com/photo-1598204942161-4f49e8c59c40?w=400' },
+      { id: 1, name: 'HOOKAH PREMIUM', price: '12 990 ₽', height: '70см', type: 'Стеклянный', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/19632d2f-5b04-4cfe-af49-07e3864aeb13.jpg' },
+      { id: 2, name: 'HOOKAH CLASSIC', price: '8 490 ₽', height: '60см', type: 'Металл', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/19632d2f-5b04-4cfe-af49-07e3864aeb13.jpg' },
+      { id: 3, name: 'HOOKAH MINI', price: '5 990 ₽', height: '40см', type: 'Портативный', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/19632d2f-5b04-4cfe-af49-07e3864aeb13.jpg' },
+      { id: 4, name: 'HOOKAH ELITE', price: '15 990 ₽', height: '75см', type: 'Premium', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/19632d2f-5b04-4cfe-af49-07e3864aeb13.jpg' },
     ],
     energy: [
-      { id: 1, name: 'ENERGY BOOST', price: '199 ₽', volume: '500мл', caffeine: '160мг', image: 'https://images.unsplash.com/photo-1622543925917-763c34f6f1da?w=400' },
-      { id: 2, name: 'ENERGY MAX', price: '249 ₽', volume: '500мл', caffeine: '200мг', image: 'https://images.unsplash.com/photo-1591106670460-c05be2f0ec0b?w=400' },
-      { id: 3, name: 'ENERGY LITE', price: '149 ₽', volume: '330мл', caffeine: '100мг', image: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400' },
-      { id: 4, name: 'ENERGY ZERO', price: '179 ₽', volume: '500мл', caffeine: '140мг', image: 'https://images.unsplash.com/photo-1608828545955-e8c5c21c7620?w=400' },
-      { id: 5, name: 'RED BULL', price: '189 ₽', volume: '250мл', caffeine: '80мг', image: 'https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400' },
-      { id: 6, name: 'MONSTER', price: '229 ₽', volume: '500мл', caffeine: '160мг', image: 'https://images.unsplash.com/photo-1560512823-829485b8bf24?w=400' },
+      { id: 1, name: 'ENERGY BOOST', price: '199 ₽', volume: '500мл', caffeine: '160мг', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/ceb1d2a3-57de-4bbe-af0f-380055c01e7a.jpg' },
+      { id: 2, name: 'ENERGY MAX', price: '249 ₽', volume: '500мл', caffeine: '200мг', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/ceb1d2a3-57de-4bbe-af0f-380055c01e7a.jpg' },
+      { id: 3, name: 'ENERGY LITE', price: '149 ₽', volume: '330мл', caffeine: '100мг', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/ceb1d2a3-57de-4bbe-af0f-380055c01e7a.jpg' },
+      { id: 4, name: 'ENERGY ZERO', price: '179 ₽', volume: '500мл', caffeine: '140мг', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/ceb1d2a3-57de-4bbe-af0f-380055c01e7a.jpg' },
+      { id: 5, name: 'RED BULL', price: '189 ₽', volume: '250мл', caffeine: '80мг', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/ceb1d2a3-57de-4bbe-af0f-380055c01e7a.jpg' },
+      { id: 6, name: 'MONSTER', price: '229 ₽', volume: '500мл', caffeine: '160мг', image: 'https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/ceb1d2a3-57de-4bbe-af0f-380055c01e7a.jpg' },
     ],
   };
 
@@ -168,8 +168,8 @@ const Index = () => {
             <div className="relative animate-float">
               <div className="absolute inset-0 bg-gradient-to-r from-neon-purple/30 to-neon-magenta/30 blur-3xl rounded-full" />
               <img
-                src="https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/035954af-be7c-466a-80cd-97d674c0f9b2.jpg"
-                alt="Vape Product"
+                src="https://cdn.poehali.dev/projects/33594ccd-314e-433c-b60e-e330ca040a58/files/e12135f1-ccda-4e80-a294-87bba9bb8706.jpg"
+                alt="VapeUp Products"
                 className="relative z-10 rounded-2xl shadow-2xl"
               />
             </div>

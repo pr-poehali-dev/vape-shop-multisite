@@ -21,22 +21,51 @@ const Index = () => {
   };
 
   const products = {
+    disposables: [
+      { id: 1, name: 'Elf Bar BC5000', price: '990 ₽', flavor: 'Арбуз', puffs: '5000', image: 'https://images.unsplash.com/photo-1601024445121-e5b82f020549?w=400' },
+      { id: 2, name: 'Lost Mary BM600', price: '790 ₽', flavor: 'Черника', puffs: '600', image: 'https://images.unsplash.com/photo-1587301626882-f149d2d6d0b4?w=400' },
+      { id: 3, name: 'HQD Cuvie Plus', price: '890 ₽', flavor: 'Манго-лёд', puffs: '1200', image: 'https://images.unsplash.com/photo-1598520106830-8c45c2035460?w=400' },
+      { id: 4, name: 'Vaporlax Sirius', price: '1090 ₽', flavor: 'Клубника', puffs: '2200', image: 'https://images.unsplash.com/photo-1613294762554-4f1cf98c0285?w=400' },
+      { id: 5, name: 'Puff Bar Plus', price: '690 ₽', flavor: 'Мята', puffs: '800', image: 'https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=400' },
+      { id: 6, name: 'GeekVape Wenax K1', price: '1290 ₽', flavor: 'Персик', puffs: '600', image: 'https://images.unsplash.com/photo-1607434472257-d9f8e57a643d?w=400' },
+    ],
+    liquids: [
+      { id: 1, name: 'URBN Premium', price: '490 ₽', volume: '60мл', nicotine: '3мг', image: 'https://images.unsplash.com/photo-1610633389918-1429f5a24c9e?w=400' },
+      { id: 2, name: 'Jam Monster', price: '690 ₽', volume: '100мл', nicotine: '6мг', image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=400' },
+      { id: 3, name: 'Naked 100', price: '590 ₽', volume: '60мл', nicotine: '0мг', image: 'https://images.unsplash.com/photo-1615207956171-f33c937c6e98?w=400' },
+      { id: 4, name: 'Candy King', price: '550 ₽', volume: '100мл', nicotine: '3мг', image: 'https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=400' },
+      { id: 5, name: 'Vapetasia', price: '650 ₽', volume: '60мл', nicotine: '6мг', image: 'https://images.unsplash.com/photo-1585559604959-6388fe69c92a?w=400' },
+      { id: 6, name: 'Dinner Lady', price: '790 ₽', volume: '60мл', nicotine: '3мг', image: 'https://images.unsplash.com/photo-1594882645126-14020914d58d?w=400' },
+    ],
+    cigarettes: [
+      { id: 1, name: 'Marlboro Red', price: '250 ₽', type: 'Красные', strength: 'Крепкие', image: 'https://images.unsplash.com/photo-1605901309584-818e25960a8f?w=400' },
+      { id: 2, name: 'Parliament Aqua Blue', price: '280 ₽', type: 'Синие', strength: 'Легкие', image: 'https://images.unsplash.com/photo-1591266371146-a4274d293cd1?w=400' },
+      { id: 3, name: 'Winston Blue', price: '220 ₽', type: 'Синие', strength: 'Легкие', image: 'https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?w=400' },
+      { id: 4, name: 'Camel Blue', price: '240 ₽', type: 'Синие', strength: 'Средние', image: 'https://images.unsplash.com/photo-1594149929227-c0bb3a59f0c1?w=400' },
+      { id: 5, name: 'Kent HD', price: '260 ₽', type: 'Белые', strength: 'Легкие', image: 'https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7c?w=400' },
+      { id: 6, name: 'LD Red', price: '180 ₽', type: 'Красные', strength: 'Крепкие', image: 'https://images.unsplash.com/photo-1594149929232-b5d8c23a4a59?w=400' },
+    ],
     vapes: [
-      { id: 1, name: 'VAPE PRO X', price: '3 990 ₽', flavor: 'Ледяная мята', puffs: '5000' },
-      { id: 2, name: 'VAPE ULTRA', price: '4 590 ₽', flavor: 'Манго-маракуя', puffs: '7000' },
-      { id: 3, name: 'VAPE MINI', price: '2 490 ₽', flavor: 'Вишня', puffs: '3000' },
-      { id: 4, name: 'VAPE MAX', price: '5 990 ₽', flavor: 'Ягодный микс', puffs: '10000' },
+      { id: 1, name: 'VAPE PRO X', price: '3 990 ₽', flavor: 'Ледяная мята', puffs: '5000', image: 'https://images.unsplash.com/photo-1512428813834-c702c7702b78?w=400' },
+      { id: 2, name: 'VAPE ULTRA', price: '4 590 ₽', flavor: 'Манго-маракуя', puffs: '7000', image: 'https://images.unsplash.com/photo-1570913149827-d2ac84ab3f9a?w=400' },
+      { id: 3, name: 'VAPE MINI', price: '2 490 ₽', flavor: 'Вишня', puffs: '3000', image: 'https://images.unsplash.com/photo-1598201483593-b5f6e09b9f97?w=400' },
+      { id: 4, name: 'VAPE MAX', price: '5 990 ₽', flavor: 'Ягодный микс', puffs: '10000', image: 'https://images.unsplash.com/photo-1577003833154-a7cf3c196c6a?w=400' },
+      { id: 5, name: 'VAPE MINI PRO', price: '3 290 ₽', flavor: 'Дыня', puffs: '4000', image: 'https://images.unsplash.com/photo-1605733513597-f0b8f5c1f7b1?w=400' },
+      { id: 6, name: 'VAPE PLUS', price: '4 190 ₽', flavor: 'Кола', puffs: '6000', image: 'https://images.unsplash.com/photo-1610828895346-b23d5f8cd9a4?w=400' },
     ],
     hookahs: [
-      { id: 1, name: 'HOOKAH PREMIUM', price: '12 990 ₽', height: '70см', type: 'Стеклянный' },
-      { id: 2, name: 'HOOKAH CLASSIC', price: '8 490 ₽', height: '60см', type: 'Металл' },
-      { id: 3, name: 'HOOKAH MINI', price: '5 990 ₽', height: '40см', type: 'Портативный' },
+      { id: 1, name: 'HOOKAH PREMIUM', price: '12 990 ₽', height: '70см', type: 'Стеклянный', image: 'https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?w=400' },
+      { id: 2, name: 'HOOKAH CLASSIC', price: '8 490 ₽', height: '60см', type: 'Металл', image: 'https://images.unsplash.com/photo-1594149929227-c0bb3a59f0c1?w=400' },
+      { id: 3, name: 'HOOKAH MINI', price: '5 990 ₽', height: '40см', type: 'Портативный', image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=400' },
+      { id: 4, name: 'HOOKAH ELITE', price: '15 990 ₽', height: '75см', type: 'Premium', image: 'https://images.unsplash.com/photo-1598204942161-4f49e8c59c40?w=400' },
     ],
     energy: [
-      { id: 1, name: 'ENERGY BOOST', price: '199 ₽', volume: '500мл', caffeine: '160мг' },
-      { id: 2, name: 'ENERGY MAX', price: '249 ₽', volume: '500мл', caffeine: '200мг' },
-      { id: 3, name: 'ENERGY LITE', price: '149 ₽', volume: '330мл', caffeine: '100мг' },
-      { id: 4, name: 'ENERGY ZERO', price: '179 ₽', volume: '500мл', caffeine: '140мг' },
+      { id: 1, name: 'ENERGY BOOST', price: '199 ₽', volume: '500мл', caffeine: '160мг', image: 'https://images.unsplash.com/photo-1622543925917-763c34f6f1da?w=400' },
+      { id: 2, name: 'ENERGY MAX', price: '249 ₽', volume: '500мл', caffeine: '200мг', image: 'https://images.unsplash.com/photo-1591106670460-c05be2f0ec0b?w=400' },
+      { id: 3, name: 'ENERGY LITE', price: '149 ₽', volume: '330мл', caffeine: '100мг', image: 'https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400' },
+      { id: 4, name: 'ENERGY ZERO', price: '179 ₽', volume: '500мл', caffeine: '140мг', image: 'https://images.unsplash.com/photo-1608828545955-e8c5c21c7620?w=400' },
+      { id: 5, name: 'RED BULL', price: '189 ₽', volume: '250мл', caffeine: '80мг', image: 'https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400' },
+      { id: 6, name: 'MONSTER', price: '229 ₽', volume: '500мл', caffeine: '160мг', image: 'https://images.unsplash.com/photo-1560512823-829485b8bf24?w=400' },
     ],
   };
 
@@ -157,17 +186,113 @@ const Index = () => {
           <div className="space-y-16">
             <div>
               <div className="flex items-center gap-3 mb-8">
-                <Icon name="Cigarette" className="text-neon-purple" size={32} />
+                <Icon name="Sparkles" className="text-neon-purple" size={32} />
+                <h3 className="text-3xl font-bold text-neon-purple">Одноразки</h3>
+              </div>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {products.disposables.map((product) => (
+                  <Card
+                    key={product.id}
+                    className="group hover:scale-105 transition-transform duration-300 bg-card border-primary/20 overflow-hidden"
+                  >
+                    <div className="h-48 overflow-hidden">
+                      <img src={product.image} alt={product.name} className="w-full h-full object-cover" />
+                    </div>
+                    <CardContent className="p-6">
+                      <h4 className="font-bold text-lg mb-2">{product.name}</h4>
+                      <div className="space-y-2 text-sm text-foreground/70 mb-4">
+                        <p>Вкус: {product.flavor}</p>
+                        <p>Затяжек: {product.puffs}</p>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span className="text-2xl font-bold text-neon-purple">{product.price}</span>
+                        <Button size="sm" className="bg-neon-purple hover:bg-neon-purple/90">
+                          <Icon name="ShoppingCart" size={16} />
+                        </Button>
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <div className="flex items-center gap-3 mb-8">
+                <Icon name="Droplets" className="text-neon-cyan" size={32} />
+                <h3 className="text-3xl font-bold text-neon-cyan">Жижа</h3>
+              </div>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {products.liquids.map((product) => (
+                  <Card
+                    key={product.id}
+                    className="group hover:scale-105 transition-transform duration-300 bg-card border-primary/20 overflow-hidden"
+                  >
+                    <div className="h-48 overflow-hidden">
+                      <img src={product.image} alt={product.name} className="w-full h-full object-cover" />
+                    </div>
+                    <CardContent className="p-6">
+                      <h4 className="font-bold text-lg mb-2">{product.name}</h4>
+                      <div className="space-y-2 text-sm text-foreground/70 mb-4">
+                        <p>Объем: {product.volume}</p>
+                        <p>Никотин: {product.nicotine}</p>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span className="text-2xl font-bold text-neon-cyan">{product.price}</span>
+                        <Button size="sm" className="bg-neon-cyan hover:bg-neon-cyan/90">
+                          <Icon name="ShoppingCart" size={16} />
+                        </Button>
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <div className="flex items-center gap-3 mb-8">
+                <Icon name="Cigarette" className="text-neon-magenta" size={32} />
+                <h3 className="text-3xl font-bold text-neon-magenta">Сигареты</h3>
+              </div>
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {products.cigarettes.map((product) => (
+                  <Card
+                    key={product.id}
+                    className="group hover:scale-105 transition-transform duration-300 bg-card border-primary/20 overflow-hidden"
+                  >
+                    <div className="h-48 overflow-hidden">
+                      <img src={product.image} alt={product.name} className="w-full h-full object-cover" />
+                    </div>
+                    <CardContent className="p-6">
+                      <h4 className="font-bold text-lg mb-2">{product.name}</h4>
+                      <div className="space-y-2 text-sm text-foreground/70 mb-4">
+                        <p>Тип: {product.type}</p>
+                        <p>Крепость: {product.strength}</p>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span className="text-2xl font-bold text-neon-magenta">{product.price}</span>
+                        <Button size="sm" className="bg-neon-magenta hover:bg-neon-magenta/90">
+                          <Icon name="ShoppingCart" size={16} />
+                        </Button>
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <div className="flex items-center gap-3 mb-8">
+                <Icon name="Wind" className="text-neon-purple" size={32} />
                 <h3 className="text-3xl font-bold text-neon-purple">Вейпы</h3>
               </div>
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {products.vapes.map((product) => (
                   <Card
                     key={product.id}
                     className="group hover:scale-105 transition-transform duration-300 bg-card border-primary/20 overflow-hidden"
                   >
-                    <div className="h-48 bg-gradient-to-br from-neon-purple/20 to-neon-magenta/20 flex items-center justify-center">
-                      <Icon name="Wind" size={64} className="text-primary opacity-50" />
+                    <div className="h-48 overflow-hidden">
+                      <img src={product.image} alt={product.name} className="w-full h-full object-cover" />
                     </div>
                     <CardContent className="p-6">
                       <h4 className="font-bold text-lg mb-2">{product.name}</h4>
@@ -192,14 +317,14 @@ const Index = () => {
                 <Icon name="Flame" className="text-neon-orange" size={32} />
                 <h3 className="text-3xl font-bold text-neon-orange">Кальяны</h3>
               </div>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {products.hookahs.map((product) => (
                   <Card
                     key={product.id}
                     className="group hover:scale-105 transition-transform duration-300 bg-card border-primary/20 overflow-hidden"
                   >
-                    <div className="h-48 bg-gradient-to-br from-neon-orange/20 to-neon-magenta/20 flex items-center justify-center">
-                      <Icon name="Flame" size={64} className="text-neon-orange opacity-50" />
+                    <div className="h-48 overflow-hidden">
+                      <img src={product.image} alt={product.name} className="w-full h-full object-cover" />
                     </div>
                     <CardContent className="p-6">
                       <h4 className="font-bold text-lg mb-2">{product.name}</h4>
@@ -224,14 +349,14 @@ const Index = () => {
                 <Icon name="Zap" className="text-neon-cyan" size={32} />
                 <h3 className="text-3xl font-bold text-neon-cyan">Энергетики</h3>
               </div>
-              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {products.energy.map((product) => (
                   <Card
                     key={product.id}
                     className="group hover:scale-105 transition-transform duration-300 bg-card border-primary/20 overflow-hidden"
                   >
-                    <div className="h-48 bg-gradient-to-br from-neon-cyan/20 to-neon-purple/20 flex items-center justify-center">
-                      <Icon name="Zap" size={64} className="text-neon-cyan opacity-50" />
+                    <div className="h-48 overflow-hidden">
+                      <img src={product.image} alt={product.name} className="w-full h-full object-cover" />
                     </div>
                     <CardContent className="p-6">
                       <h4 className="font-bold text-lg mb-2">{product.name}</h4>

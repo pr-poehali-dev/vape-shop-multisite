@@ -13,7 +13,7 @@ import {
 
 const Index = () => {
   const [activeSection, setActiveSection] = useState('home');
-  const [selectedCity, setSelectedCity] = useState('moscow');
+  const [selectedCity, setSelectedCity] = useState('vologda');
 
   const scrollToSection = (sectionId: string) => {
     setActiveSection(sectionId);
@@ -70,11 +70,12 @@ const Index = () => {
   };
 
   const cities = [
-    { value: 'moscow', label: 'Москва' },
-    { value: 'spb', label: 'Санкт-Петербург' },
-    { value: 'kazan', label: 'Казань' },
-    { value: 'ekb', label: 'Екатеринбург' },
-    { value: 'nsk', label: 'Новосибирск' },
+    { value: 'vologda', label: 'Вологда' },
+    { value: 'kharovsk', label: 'Харовск' },
+    { value: 'nyandoma', label: 'Няндома' },
+    { value: 'sokol', label: 'Сокол' },
+    { value: 'arkhangelsk', label: 'Архангельск' },
+    { value: 'severodvinsk', label: 'Северодвинск' },
   ];
 
   const reviews = [
@@ -490,7 +491,7 @@ const Index = () => {
                   <Icon name="MapPin" className="text-neon-purple mt-1" size={24} />
                   <div>
                     <h4 className="font-semibold mb-1">Адрес</h4>
-                    <p className="text-foreground/70">г. Москва, ул. Примерная, д. 123</p>
+                    <p className="text-foreground/70">г. Вологда, ул. Пугачева, д. 71</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">

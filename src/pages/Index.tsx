@@ -59,7 +59,7 @@ const Index = () => {
       <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-lg bg-background/80 border-b border-primary/20">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl md:text-3xl font-bold gradient-text">VAPE ZONE</h1>
+            <h1 className="text-2xl md:text-3xl font-bold gradient-text">VapeUp</h1>
             
             <nav className="hidden md:flex items-center gap-6">
               {[
@@ -323,7 +323,7 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 gradient-text">О нас</h2>
           <p className="text-lg text-foreground/80 leading-relaxed">
-            VAPE ZONE — это современный магазин вейп-продукции с кальянной в самом сердце города.
+            VapeUp — это современный магазин вейп-продукции с кальянной в самом сердце города.
             Мы работаем с 2020 года и за это время обслужили более 10 000 довольных клиентов.
             Наша миссия — предоставить качественную продукцию по честным ценам с профессиональным
             сервисом. У нас вы найдете широкий выбор вейпов, кальянов и энергетиков от ведущих
@@ -411,7 +411,7 @@ const Index = () => {
 
       <footer className="py-8 px-4 border-t border-primary/20">
         <div className="container mx-auto text-center text-foreground/60">
-          <p>© 2025 VAPE ZONE. Все права защищены.</p>
+          <p>© 2025 VapeUp. Все права защищены.</p>
           <p className="text-sm mt-2">Продукция предназначена для лиц старше 18 лет</p>
         </div>
       </footer>
